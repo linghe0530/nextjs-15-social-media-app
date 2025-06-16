@@ -16,7 +16,7 @@ export default function Page() {
           <div className="space-y-5">
             <LoginForm />
             <Link href="/signup" className="blcok text-center hover:underline">
-              Don't have an account? Sign up
+              Don&apos;t have an account? Sign up
             </Link>
           </div>
         </div>
