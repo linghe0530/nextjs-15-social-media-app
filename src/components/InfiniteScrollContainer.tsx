@@ -12,7 +12,7 @@ export default function InfiniteScrollContainer({
 }: InfiniteScrollContainerProps) {
   const { ref } = useInView({
     rootMargin: "200px",
-    onChange(inView, entry) {
+    onChange(inView, _entry) {
       if (inView) {
         onBottomReached();
       }
