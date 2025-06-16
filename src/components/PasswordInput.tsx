@@ -5,11 +5,7 @@ import { Input } from "./ui/input";
 import { Eye, EyeOff } from "lucide-react";
 import { useState } from "react";
 
-function PasswordInput({
-  className,
-  type,
-  ...props
-}: React.ComponentProps<"input">) {
+function PasswordInput({ className, ...props }: React.ComponentProps<"input">) {
   const [showPassword, setShowPassword] = useState(false);
   return (
     <div className="relative">
